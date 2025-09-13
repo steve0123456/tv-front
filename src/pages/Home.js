@@ -7,7 +7,7 @@ function Home() {
 
   // Fetch channels from backend
   useEffect(() => {
-    fetch("http://localhost:8080/api/channels")
+    fetch("https://tv-5ote.onrender.com/api/channels")
       .then((res) => res.json())
       .then((data) => {
         console.log("Fetched channels:", data);
